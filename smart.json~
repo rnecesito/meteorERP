@@ -1,0 +1,9 @@
+{
+  "packages": {
+    "font-awesome": {},
+    "bootstrap-3": {},
+    "moment": {},
+    "select2": {},
+    "accounts-ui-bootstrap-3": {}
+  }
+}
