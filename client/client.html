@@ -5,6 +5,7 @@
 
 <body>
 
+	{{#if currentUser}}
 	<div class="container">
 
 		<!--  homepage  -->
@@ -1712,5 +1713,8 @@
 			</div>
 		</div>
 	</div>
+	{{else}}
+		{{> login_template}}
+	{{/if}}
 
 </body>
