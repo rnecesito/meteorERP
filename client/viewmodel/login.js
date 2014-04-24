@@ -2,6 +2,10 @@ Template.login_template.created = function () {
 	Session.set('login_error', '');
 };
 
+Template.login_template.rendered = function () {
+	$('#main_container').hide();	
+};
+
 Template.login_template.events({
 	'submit': function (e,t){
 		user = $("#login_un").val();

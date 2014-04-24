@@ -186,3 +186,7 @@ body .modal-open {
 	#non-printable3 {display:none;}
 	#printable3 {display:block;}
 }
+
+.not-logged-in {
+	display: none;
+}
